@@ -1,0 +1,113 @@
+---
+name: Adson Costanzi Filho
+position: "Data Scientist"
+address: "Viana 459, Viña del Mar - Chile"
+profilepic: eu.jpg
+phone: +56 9 3088 8531 
+email: "adsoncostanzi32@gmail.com"
+www: adsoncostanzifilho.github.io
+twitter: AdsonCostanzi
+github: adsoncostanzifilho
+linkedin: adsoncostanzifilho
+headcolor: 444f63
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    keep_tex: false
+always_allow_html: yes
+header-includes:
+  \usepackage{float}
+  \usepackage{multicol}
+  \usepackage{colortbl}
+  \arrayrulecolor{white}
+  \usepackage{hhline}
+  \definecolor{light-gray}{gray}{0.95}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(fontawesome)
+library(kableExtra)
+library(huxtable)
+library(gridExtra)
+```
+
+
+\paragraphstyle{I am a statistician who majored at the Federal University of Rio Grande do Sul, Brazil. I have about 6 years of experience working in data science environments, working mainly with model development, text mining, sentiment analysis, data visualization, and report creation. I am also a very active member of the R community following discussions, news, and improvements of the language. I am the developer/maintainer of an R package hosted on CRAN called CSGo designed to pull the CSGO data from Steam's API. You can find more projects I am involved in on my personal page.}
+
+
+\faIcon{university} Education
+============================================
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Statistics Bachelor Degree", "2012-2017", "Universidade Federal do Rio Grande do Sul", "Porto Alegre, Brazil",
+  "Statistics Bachelor Degree (Exchange Program)", "2014-2015", "Universidad de Valladolid", "Valladolid, Spain"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+\faIcon{laptop-code} Technical Skills
+============================================
+
+R - PYTHON - SQL - SAS - CSS - Git - Office - VBA - JavaScript (Beginner)
+
+\faIcon{language} Languages
+============================================
+
+- English (Advanced)
+
+- Spanish (Advanced)
+
+- Portuguese (Native)
+
+\faIcon{briefcase} Professional Experience
+============================================
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Activities,
+  "Senior Data Scientist", "Jan 2021", "Evalueserve", "Viña del Mar, Chile", "Consultant to one of the 5 Major US Bank, responsible for campaigns and events measurement, automating processes, model and machine learning development applied to the marketing. Technical leader in inhouse data science projects: NLP, Auto ML, R Trainings, Automated Model Monitor, etc.",
+  
+  "Data Scientist", "Sep 2019 - Jan 2021", "Evalueserve", "Viña del Mar, Chile", "Consultant to one of the 5 Major US Bank, responsible for campaigns and events measurement, automating processes, model and machine learning development applied to the marketing. Technical leader in inhouse data science projects: NLP, Auto ML, R Trainings, Automated Model Monitor, etc.",
+  
+  "Credit Modeling Specialist", "Jun 2019 - Aug 2019", "Renner S.A.", "Porto Alegre, Brazil", "Propose and develop predictive models for credit area. Implementation and maintenance of credit policies. APIs creation and deploy. Working in Git environment, R, SAS, and SQL.",
+  
+  "Data Scientist Analyst II", "Dec 2018- Jun 2019", "Agibank", "Porto Alegre, Brazil", "Statistical modeling (credit, fraud and debt collection). APIs creation and deploy. Webscraping to obtain data from Internet. Data science techniques to illustrate and summarize information (shiny and rmarkdown). Working in Git environment, R, Docker, Spark, Amazon Cloud (Ec2, Redshift, S3) and SQL.",
+  
+  "Data Scientist Analyst I", "Jul 2018- Dec 2018", "Agibank", "Porto Alegre, Brazil", "Statistical modeling (credit, fraud and behavior). APIs creation and deploy. Web scraping to obtain data from the Internet. Data science techniques to illustrate and summarize information (shiny and rmarkdown). Working in Git environment, R, Docker, Spark, Amazon Cloud (Ec2, Redshift, S3) and SQL.",
+  
+  "Fraud Prevention Analyst", "Aug 2017- Jul 2018", "Agibank", "Porto Alegre, Brazil", "Statistical modeling to understand and predict fraud behavior (machine learning techniques). Data science techniques to illustrate and summarize information (shiny and rmarkdown). Automation of management reports.",
+  
+  "Data Scientist Assistant", "Aug 2016- Aug 2017", "British American Tobacco", "Porto Alegre, Brazil", "Descriptive analysis, statistical modeling, design of experiments and reports creation. Creation of web tools to store, process and illustrate data (shiny).",
+  
+  "Data Scientist Intern", "Nov 2015- Aug 2016", "British American Tobacco", "Porto Alegre, Brazil", "Descriptive analysis, statistical modeling, design of experiments and support of reports creation. Creation of web tools to store, process and illustrate data (shiny)."
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where, Activities)
+```
+
+
+\faIcon{chalkboard-teacher} Talks
+============================================
+
+COSTANZI FILHO, A; et al. Qualitative Panel – Desenvolvimento de uma aplicação em shiny para
+análise interativa de dados sensoriais. 2017. (II SER)
+
+COSTANZI FILHO, A; et al. Mineração de Textos e Análise de Sentimentos Aplicados a Dados do
+Twitter. 2016. (SINAPE)
+
+COSTANZI FILHO, A.; et al. Teste de Paralelismo: Aplicação para comparação de curvas analíticas
+de água. 2016. (Rbras)
+
+BISOGNIN, C.; COSTANZI FILHO, A. Teste de Paralelismo: Processos SARFIMA com Inovações α-
+estaveis: Estimação do Parâmetro α-estável. 2014. (SINAPE)
+
+COSTANZI FILHO, A.; CAPUTO, P. M. Indicadores de Desenvolvimento Socioeconômico e a
+Reformulação do Idese. 2013. (1º FEE Scientific Initiation Hall)
+
+
+
