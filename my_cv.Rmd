@@ -10,7 +10,7 @@ twitter: AdsonCostanzi
 github: adsoncostanzifilho
 linkedin: adsoncostanzifilho
 headcolor: 444f63
-date: "`r format(Sys.time(), '%B %Y')`"
+date: "June 2021"
 output: 
   vitae::awesomecv:
     keep_tex: false
